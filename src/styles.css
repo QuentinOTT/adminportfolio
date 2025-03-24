@@ -1,0 +1,55 @@
+.message-card {
+  transition: transform 0.2s;
+}
+
+.message-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.status-chip {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.status-chip.new {
+  background-color: #2196F3;
+  color: white;
+}
+
+.status-chip.read {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.status-chip.replied {
+  background-color: #00C853;
+  color: white;
+}
+
+.status-chip.archived {
+  background-color: #616161;
+  color: white;
+}
+
+.search-field {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 8px 16px;
+  transition: background-color 0.2s;
+}
+
+.search-field:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.message-date {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.message-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
